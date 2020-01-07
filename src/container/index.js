@@ -1,0 +1,10 @@
+import Home from './home/home'
+import Babytoy from './BabToys/babytoy' 
+import Blog from './Blog/blog' 
+import FlashSale from './Flash Sale/flashsale' 
+import NewArrival from './New Arrival/newarrival' 
+import ToysForBoys from './Toys For Boys/toysForBoys' 
+import ToysForGirls from './Toys For Girls/toysForGirls' 
+import Vehicles from './Vehicles/vehicles' 
+import WinterBigSales from './Winter Big Sale/winterBigSale' 
+export {Home ,Babytoy , Blog ,FlashSale ,NewArrival,ToysForBoys,ToysForGirls ,Vehicles ,WinterBigSales}
