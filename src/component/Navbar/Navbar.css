@@ -1,0 +1,49 @@
+@media screen and (max-width: 992px) {
+.logo {
+    width: auto;
+    max-height: 36px;
+}}
+
+
+.logo {
+    width: 300px;
+    max-height: 36px;
+}
+
+@media screen and (max-width: 1230px) {
+.logo {
+    max-width: 100%;
+}}
+.nav{
+    background-color: #f9f9f9;
+    /* float: right; */
+    
+}
+
+.nav-item-list {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+
+    }
+    .nav2{
+        float: right;
+        text-align: right;
+        line-height: 15px;
+        
+    }
+
+    .navbar.navbar-light form .md-form .form-control {
+        background-color: #e6e6e6;
+        color: #000;
+    }
+
+    .form-control {
+        background: #e6e6e6;
+        color: black;
+    }
+
+    .container {
+        padding-left: 8px;
+        padding-right: 8px;
+    }

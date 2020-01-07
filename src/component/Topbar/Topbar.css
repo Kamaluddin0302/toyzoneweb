@@ -1,0 +1,12 @@
+input{
+    outline: none !important;
+}
+.input-group{
+    margin-top: 10px;
+}
+
+.contactSec{
+    line-height: 10px;
+    font-weight: bold;
+    text-align: center;
+}
