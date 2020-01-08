@@ -9,13 +9,14 @@ import Img5 from './../../images/img5.jpg'
 
 const CarouselPage = () => {
   return (
-    <MDBContainer>
       <MDBCarousel
         activeItem={1}
         length={3}
         showControls={true}
         showIndicators={true}
         className="z-depth-1"
+
+        style = {{width: "80%" , margin : "0 auto"}}
       >
         <MDBCarouselInner>
           <MDBCarouselItem itemId="1">
@@ -67,7 +68,6 @@ const CarouselPage = () => {
 
         </MDBCarouselInner>
       </MDBCarousel>
-    </MDBContainer>
   );
 }
 

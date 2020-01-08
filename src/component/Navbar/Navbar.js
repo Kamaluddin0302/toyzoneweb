@@ -16,6 +16,7 @@ class NavbarPage extends Component {
 
     render() {
         return (
+            
             <Router>
                 <MDBNavbar sticky style={{ backgroundColor: "#51b972" }} dark expand="md">
                     {/* <MDBNavbarBrand>
@@ -25,22 +26,31 @@ class NavbarPage extends Component {
                     <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
                         <MDBNavbarNav left>
                             <MDBNavItem active>
-                                <MDBNavLink to="#!">Home</MDBNavLink>
+                                <MDBNavLink to="/" onClick = {() => this.props.history.push("/")}>Home</MDBNavLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <MDBNavLink to="#!">Vehicles</MDBNavLink>
+                                <MDBNavLink to="/vehicles" onClick = {() => this.props.history.push("/vehicles")}>Vehicles</MDBNavLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <MDBNavLink to="#!">Toys for Boys</MDBNavLink>
+                                <MDBNavLink to="/toysforboys" onClick = {() => this.props.history.push("/toysforboys")}>Toys for Boys</MDBNavLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <MDBNavLink to="#!">Toys For Girls</MDBNavLink>
+                                <MDBNavLink to="/toysforgirls" onClick = {() => this.props.history.push("/toysforgirls")}>Toys For Girls</MDBNavLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <MDBNavLink to="#!">Baby Toys</MDBNavLink>
+                                <MDBNavLink to="/babytoy" onClick = {() => this.props.history.push("/babytoy")}>Baby Toys</MDBNavLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <MDBNavLink to="#!">New Arival</MDBNavLink>
+                                <MDBNavLink to="/newarrival" onClick = {() => this.props.history.push("/newarrival")}>New Arival</MDBNavLink>
+                            </MDBNavItem>
+                            <MDBNavItem>
+                                <MDBNavLink to="/flashsale" onClick = {() => this.props.history.push("/flashsale")}> Flashsale  </MDBNavLink>
+                            </MDBNavItem>
+                            <MDBNavItem>
+                                <MDBNavLink to="/winterbigsale" onClick = {() => this.props.history.push("/winterbigsale")}>Winter Big Sale</MDBNavLink>
+                            </MDBNavItem>
+                            <MDBNavItem>
+                                <MDBNavLink to="/blog" onClick = {() => this.props.history.push("/blog")}>blog</MDBNavLink>
                             </MDBNavItem>
                         </MDBNavbarNav>
                     </MDBCollapse>

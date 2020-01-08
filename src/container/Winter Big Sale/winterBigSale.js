@@ -1,10 +1,49 @@
 import React from 'react';
+import Cards from '../../component/card/card';
+import Topbar from './../../component/Topbar/Topbar'
+import Navbar from '../../component/Navbar/Navbar';
+import Header from './../../component/Header/Header'
+import Grid from '@material-ui/core/Grid';
+import Footer from './../../component/footer/footer'
+import Customers from './../../component/social/social'
 
-
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <h1>WInter Big Sales</h1>
+      <Header />
+      <Topbar />
+      <Navbar history = {props.history}/>
+       <Grid container alignjustify='center'>
+        <Grid lg={3} md={4} sm={6} xs={12}>
+          <Cards />
+        </Grid>
+        <Grid lg={3} md={4} sm={6} xs={12}>
+          <Cards />
+        </Grid>
+        <Grid lg={3} md={4} sm={6} xs={12}>
+          <Cards />
+        </Grid>
+        <Grid lg={3} md={4} sm={6} xs={12}>
+          <Cards />
+        </Grid>
+        <Grid lg={3} md={4} sm={6} xs={12}>
+          <Cards />
+        </Grid>
+        <Grid lg={3} md={4} sm={6} xs={12}>
+          <Cards />
+        </Grid>
+        <Grid lg={3} md={4} sm={6} xs={12}>
+          <Cards />
+        </Grid>
+        <Grid lg={3} md={4} sm={6} xs={12}>
+          <Cards />
+        </Grid>
+
+
+
+      </Grid>
+      <Customers /> 
+  <Footer />
     </div>
   );
 }

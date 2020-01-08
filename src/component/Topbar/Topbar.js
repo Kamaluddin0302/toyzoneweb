@@ -23,7 +23,6 @@ export default class SubHeader extends React.Component {
                                     <FaSearch />
                                 </span>
                             </div>
-
                         </div>
                     </Grid>
                     <Grid item lg={5} xs={10}>

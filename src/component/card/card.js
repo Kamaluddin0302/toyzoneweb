@@ -8,13 +8,14 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import HoverImage from "react-hover-image"
-import Image from '../../images/51_large.jpg'
-import Image1 from '../../images/50_large.jpg'
+
 
 const useStyles = makeStyles({
   card: {
     maxWidth: 300,
-    margin : "2vh"
+    marginLeft : "12%",
+    marginRight : "6%",
+    marginTop: "3vh"
   },
   media: {
     height: 300,
@@ -27,7 +28,7 @@ const useStyles = makeStyles({
 
 });
 
-export default function MediaCard() {
+export default function MediaCard(props) {
   const classes = useStyles();
 
   return (
@@ -35,8 +36,8 @@ export default function MediaCard() {
       <CardActionArea>
       <HoverImage
       style={{width : '100%'}}
-          src={Image}
-          hoverSrc={Image1}
+          src= {props.image1}
+          hoverSrc={props.image2}
         />
         <CardContent>
           <Typography variant="body2" color="textSecondary" component="p">
