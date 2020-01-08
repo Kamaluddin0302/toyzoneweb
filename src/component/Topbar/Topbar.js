@@ -17,9 +17,9 @@ export default class SubHeader extends React.Component {
                     </Grid>
                     <Grid item lg={4} xs={10}>
                         <div className="input-group">
-                            <input type="text" className="form-control" placeholder="search here..." aria-label="Username" aria-describedby="basic-addon" />
+                            <input style={{backgroundColor: '#e6e6e6'}} type="text" className="form-control" placeholder="Search Your Products Here . . . ." aria-label="Username" aria-describedby="basic-addon" />
                             <div className="input-group-prepend">
-                                <span className="input-group-text" id="basic-addon">
+                                <span className="input-group-text" id="basic-addon" style={{backgroundColor: '#51ba72', color: 'white'}}>
                                     <FaSearch />
                                 </span>
                             </div>
@@ -29,7 +29,7 @@ export default class SubHeader extends React.Component {
                     <Grid item lg={5} xs={10}>
                         <div className="contactSec">
                             <p>Need Suppot?</p>
-                            <p><FaPhone />03211222869</p>
+                            <p><FaPhone /><span style={{color: "#5cb85c"}}> 03211222869</span></p>
                         </div>
                     </Grid>
                 </Grid>
