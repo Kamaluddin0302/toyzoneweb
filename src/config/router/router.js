@@ -2,7 +2,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Route} from "react-router-dom";
-import {Home ,Babytoy , Blog ,FlashSale ,NewArrival,ToysForBoys,ToysForGirls ,Vehicles ,WinterBigSales} from './../../container'
+import {Home ,Babytoy , Blog ,FlashSale ,NewArrival,ToysForBoys,ToysForGirls ,Vehicles ,WinterBigSales,Mycart} from './../../container'
 
 
   export default function App() {
@@ -17,6 +17,9 @@ import {Home ,Babytoy , Blog ,FlashSale ,NewArrival,ToysForBoys,ToysForGirls ,Ve
             <Route path="/toysforgirls" component = {ToysForGirls} />
             <Route path="/vehicles" component = {Vehicles} />
             <Route path="/winterbigsale" component = {WinterBigSales} />
+            <Route path="/mycart" component = {Mycart} />
+
+            
       </Router>
     );
   }

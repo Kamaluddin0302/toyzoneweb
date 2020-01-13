@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import {
-    MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
-    MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
+    MDBNavbar, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -18,10 +17,8 @@ class NavbarPage extends Component {
         return (
             
             <Router>
-                <MDBNavbar sticky style={{ backgroundColor: "#51b972" }} dark expand="md">
-                    {/* <MDBNavbarBrand>
-          <strong className="white-text">Navbar</strong>
-        </MDBNavbarBrand> */}
+                <MDBNavbar style={{ backgroundColor: "#51b972" }} dark expand="md">
+                   
                     <MDBNavbarToggler onClick={this.toggleCollapse} />
                     <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
                         <MDBNavbarNav left>

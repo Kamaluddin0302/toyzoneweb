@@ -1,5 +1,4 @@
 import React from 'react';
-import Cards from '../../component/card/card';
 import Topbar from './../../component/Topbar/Topbar'
 import Navbar from '../../component/Navbar/Navbar';
 import Slider from '../../component/Slider/Slider';
@@ -15,8 +14,8 @@ import './home.css'
 function App(props) {
   return (
     <div className="App">
-      <div className='navbar'>
-      <Header />
+      <div>
+      <Header history = {props.history} />
       <Topbar />
       <Navbar history = {props.history} />
 
@@ -28,7 +27,7 @@ function App(props) {
       <ImageSlider /> 
       </div>
       <div style = {{padding : "2%"}}>
-        <h1>Flash Deals ⛈️</h1>
+        <p style ={{fontWeight: "bold",fontSize : "250%"}}>Flash Deals <span role="img" aria-label = "dish">⛈️</span> </p>
       <CardSlider image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/lol_275x.jpg?v=1578057758" 
     image2 ="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/71KIFd18MmL._AC_SL1500_275x.jpg?v=1578058323"/> 
       </div>   

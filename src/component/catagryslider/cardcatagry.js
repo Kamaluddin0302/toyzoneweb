@@ -14,9 +14,6 @@ export default class Gallery extends React.Component {
       958: { items: 3 },
       650: { items: 2 },
       645: { items: 1 },
-
-      
-
     },
     galleryItems: this.galleryItems(),
   }
@@ -36,9 +33,9 @@ export default class Gallery extends React.Component {
   render() {
     const { galleryItems, responsive, currentIndex } = this.state
     return (
-      <Grid container justify='center'>
+      <Grid container justify='center' style = {{position: "static"}}>
         <div style={{ width: "80%"}}>
-          <AliceCarousel style = {{position: "absolute"}}
+          <AliceCarousel 
             dotsDisabled={true}
             buttonsDisabled={true}
             items={galleryItems}
@@ -46,9 +43,9 @@ export default class Gallery extends React.Component {
             slideToIndex={currentIndex}
             onSlideChanged={this.onSlideChanged}
           />
-          <div style={{ justifyContent: "center", marginTop: "5vh", marginBottom: "3%", marginTop : "-0.5vh" ,position: "relative"}}>
-            <img height="30" style={{ borderRadius: "100%", padding: "4px", marginRight: "2%",backgroundColor: "white",boxShadow: "0px 2px 20px 0px rgba(0,0,0,0.75)"}} src="https://image.flaticon.com/icons/svg/126/126492.svg" onClick={() => this.slidePrev()} />
-            <img height="30" style={{ borderRadius: "100%", padding: "4px", marginRight: "2%",boxShadow: "0px 2px 20px 0px rgba(0,0,0,0.75)"}}  src="https://image.flaticon.com/icons/svg/126/126490.svg" onClick={() => this.slideNext()} />
+          <div style={{ justifyContent: "center", marginBottom: "3%", marginTop : "-0.5vh" ,position: "relative"}}>
+            <img alt = "" height="30" style={{ borderRadius: "100%", padding: "4px", marginRight: "2%",backgroundColor: "white",boxShadow: "0px 2px 20px 0px rgba(0,0,0,0.75)"}} src="https://image.flaticon.com/icons/svg/126/126492.svg" onClick={() => this.slidePrev()} />
+            <img alt = "" height="30" style={{ borderRadius: "100%", padding: "4px", marginRight: "2%",boxShadow: "0px 2px 20px 0px rgba(0,0,0,0.75)"}}  src="https://image.flaticon.com/icons/svg/126/126490.svg" onClick={() => this.slideNext()} />
           </div>
         </div>
       </Grid>

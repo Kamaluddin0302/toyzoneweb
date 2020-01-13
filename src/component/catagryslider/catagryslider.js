@@ -29,7 +29,7 @@ export default class Gallery extends React.Component {
   slidePrev = () => this.setState({ currentIndex: this.state.currentIndex - 1 })
 
   galleryItems() {
-    return popularCategories.map((v,i) => <img src={v.url} style =  {{marginLeft : "3%" ,width : "90%"}}/>
+    return popularCategories.map((v,i) => <img src={v.url} style =  {{marginLeft : "3%" ,width : "90%"}} alt = ""/>
     )
   }
   render() {
@@ -45,9 +45,9 @@ export default class Gallery extends React.Component {
             slideToIndex={currentIndex}
             onSlideChanged={this.onSlideChanged}
           />
-          <div style={{ justifyContent: "center", marginTop: "2%", marginBottom: "2%", marginTop : "-0.5vh" ,position: "relative"}}>
-            <img  height="30" style={{ borderRadius: "100%",padding: "4px", marginRight: "2%",backgroundColor: "white", boxShadow: "0px 2px 20px 0px rgba(0,0,0,0.75)"}} src="https://image.flaticon.com/icons/svg/126/126492.svg" onClick={() => this.slidePrev()} />
-            <img height="30" style={{ borderRadius: "100%" ,padding: "4px", marginRight: "2%",backgroundColor: "white",boxShadow: "0px 2px 20px 0px rgba(0,0,0,0.75)"}}  src="https://image.flaticon.com/icons/svg/126/126490.svg" onClick={() => this.slideNext()} />
+          <div style={{ justifyContent: "center", marginBottom: "2%", marginTop : "-0.5vh" ,position: "relative"}}>
+            <img alt = "" height="30" style={{ borderRadius: "100%",padding: "4px", marginRight: "2%",backgroundColor: "white", boxShadow: "0px 2px 20px 0px rgba(0,0,0,0.75)"}} src="https://image.flaticon.com/icons/svg/126/126492.svg" onClick={() => this.slidePrev()} />
+            <img alt = "" height="30" style={{ borderRadius: "100%" ,padding: "4px", marginRight: "2%",backgroundColor: "white",boxShadow: "0px 2px 20px 0px rgba(0,0,0,0.75)"}}  src="https://image.flaticon.com/icons/svg/126/126490.svg" onClick={() => this.slideNext()} />
           </div>
 
 

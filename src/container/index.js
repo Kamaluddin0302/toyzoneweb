@@ -7,4 +7,5 @@ import ToysForBoys from './Toys For Boys/toysForBoys'
 import ToysForGirls from './Toys For Girls/toysForGirls' 
 import Vehicles from './Vehicles/vehicles' 
 import WinterBigSales from './Winter Big Sale/winterBigSale' 
-export {Home ,Babytoy , Blog ,FlashSale ,NewArrival,ToysForBoys,ToysForGirls ,Vehicles ,WinterBigSales}
+import Mycart from './mycart/mycart'
+export {Home ,Babytoy , Blog ,FlashSale ,NewArrival,ToysForBoys,ToysForGirls ,Vehicles ,WinterBigSales ,Mycart}

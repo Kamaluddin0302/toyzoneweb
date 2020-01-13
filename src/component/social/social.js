@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './social.css'
-
 export default class MultipleItems extends Component {
   render() {
     const settings = {
@@ -33,9 +32,9 @@ export default class MultipleItems extends Component {
                   sizes="89px"
                 />
               </div>
-              <div class="testimonial_right">
-						 	<p class="blockquote"><span>"</span>Toyzone is one of the finest<br />      toy shop in Pakistan<span>"</span></p>
-						     <p class="autor_name">Shaheena</p>
+              <div className="testimonial_right">
+						 	<p className="blockquote"><span>"</span>Toyzone is one of the finest<br />      toy shop in Pakistan<span>"</span></p>
+						     <p className="autor_name">Shaheena</p>
 						 </div></div>
 
           </div>
@@ -53,9 +52,9 @@ export default class MultipleItems extends Component {
                   sizes="89px"
                 />
               </div>
-              <div class="testimonial_right">
-						 	<p class="blockquote"><span>"</span>Toyzone is one of the finest<br />      toy shop in Pakistan<span>"</span></p>
-						     <p class="autor_name">Shaheena</p>
+              <div className="testimonial_right">
+						 	<p className="blockquote"><span>"</span>Toyzone is one of the finest<br />      toy shop in Pakistan<span>"</span></p>
+						     <p className="autor_name">Shaheena</p>
 						 </div></div>
           </div>
           <div>
@@ -72,9 +71,9 @@ export default class MultipleItems extends Component {
                   sizes="89px"
                 />
               </div>
-              <div class="testimonial_right">
-						 	<p class="blockquote"><span>"</span>Toyzone is one of the finest<br />      toy shop in Pakistan<span>"</span></p>
-						     <p class="autor_name">Shaheena</p>
+              <div className="testimonial_right">
+						 	<p className="blockquote"><span>"</span>Toyzone is one of the finest<br />      toy shop in Pakistan<span>"</span></p>
+						     <p className="autor_name">Shaheena</p>
 						 </div></div>
           </div>
          

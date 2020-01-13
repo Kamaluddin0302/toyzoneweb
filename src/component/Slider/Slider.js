@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from "mdbreact";
+import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView } from "mdbreact";
 import Img1 from './../../images/img1.jpg'
 import Img2 from './../../images/img2.jpg'
 import Img3 from './../../images/img3.jpg'

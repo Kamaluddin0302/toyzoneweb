@@ -2,9 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import HoverImage from "react-hover-image"
@@ -15,7 +13,8 @@ const useStyles = makeStyles({
     maxWidth: 300,
     marginLeft : "12%",
     marginRight : "6%",
-    marginTop: "3vh"
+    marginTop: "3vh",
+    position: "relative"
   },
   media: {
     height: 300,
@@ -48,7 +47,6 @@ export default function MediaCard(props) {
           </Typography>
           <Button variant="contained" color="primary" style={{backgroundColor : '#51BA72',width : 150}}>
         Add to Cart
-        {/* This Button uses a Font Icon, see the installation instructions in the docs. */}
       </Button>
 
         </CardContent>

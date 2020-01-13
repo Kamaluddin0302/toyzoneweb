@@ -1,7 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import './footer.css'
-import {Link} from "react-router-dom";
 const FooterPage = () => {
   return (
     <MDBFooter  id="main" className="font-small pt-4 mt-4" >
@@ -46,13 +45,13 @@ Subscribe for latest Discounts & Updates<br />
           <MDBCol id="third" md="3" style={{borderRight : '1px solid White'}}>
             <p style={{fontWeight : 600,fontSize : 28,textAlign : 'center'}}> Need Support ? </p>
             
-            <p style={{fontWeight : 600,fontSize : 28,textAlign : 'center'}}><img src="https://img.icons8.com/android/2x/phone.png" width='30px'/> 03211222869  </p>
+            <p style={{fontWeight : 600,fontSize : 28,textAlign : 'center'}}><img src="https://img.icons8.com/android/2x/phone.png" width='30px' alt = ""/> 03211222869  </p>
                  
           </MDBCol>
           <MDBCol id="fourth" md="3">
             <h4 className="last"> Secure Checkout </h4>
             <p id=" p1">  We use encrypted SSL security to ensure that your credit card information is 100% protected. </p>
-            <img className="image" src="https://cdn.shopify.com/s/files/1/0272/0409/1949/t/3/assets/ff-checkout-single.png?3459" />
+            <img className="image" src="https://cdn.shopify.com/s/files/1/0272/0409/1949/t/3/assets/ff-checkout-single.png?3459" alt = "" />
           </MDBCol>
         </MDBRow>
       </MDBContainer>

@@ -13,7 +13,7 @@ export default class SubHeader extends React.Component {
 
                     </Grid>
                     <Grid item lg={2} xs={12}>
-                        <img src={Logo} width="100%" height="50px" />
+                        <img src={Logo} width="100%" height="50px" alt = "logo"/>
                     </Grid>
                     <Grid item lg={4} xs={10}>
                         <div className="input-group">
