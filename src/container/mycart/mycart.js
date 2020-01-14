@@ -15,11 +15,11 @@ class Home extends React.Component {
         return (
             <div className="App">
                 <div>
-                    <Header />
+                <Header history = {this.props.history}/>
                     <Topbar />
                 </div>
                 <div style = {{marginBottom : "20vh"}}>
-                <Commmercecart />
+                <Commmercecart  history = {this.props.history}/>
                 </div>
                 <Footer /> 
             </div>

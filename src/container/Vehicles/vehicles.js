@@ -10,63 +10,63 @@ import Customers from './../../component/social/social'
 function App(props) {
   return (
     <div className="App">
-      <Header />
+      <Header history = {props.history}/>
       <Topbar />
       <Navbar history = {props.history}/>
        <Grid container alignjustify='center'>
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
            image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/cullinan-4_275x.jpg?v=1574469497"/>
         </Grid>
        
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
            image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/cullinan-4_275x.jpg?v=1574469497"/>
         </Grid>
        
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
            image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/cullinan-4_275x.jpg?v=1574469497"/>
         </Grid>
        
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
            image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/cullinan-4_275x.jpg?v=1574469497"/>
         </Grid>
        
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
            image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/cullinan-4_275x.jpg?v=1574469497"/>
         </Grid>
        
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
            image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/cullinan-4_275x.jpg?v=1574469497"/>
         </Grid>
        
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
            image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/cullinan-4_275x.jpg?v=1574469497"/>
         </Grid>
        
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
            image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/cullinan-4_275x.jpg?v=1574469497"/>
         </Grid>
        
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
            image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/cullinan-4_275x.jpg?v=1574469497"/>
         </Grid>
        
 
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
            image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/cullinan-4_275x.jpg?v=1574469497"/>
         </Grid>
        
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/civic-1_275x.jpg?v=1577786839" 
            image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/cullinan-4_275x.jpg?v=1574469497"/>
         </Grid>
        

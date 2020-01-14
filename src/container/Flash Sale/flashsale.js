@@ -10,41 +10,59 @@ import Customers from './../../component/social/social'
 function App(props) {
   return (
     <div className="App">
-      <Header />
+      <Header history = {props.history}/>
       <Topbar />
       <Navbar history = {props.history}/>
        <Grid container justify='right'>
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards />
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
+           image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163947_275x.jpg?v=1578057214"/>
         </Grid>
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards />
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
+           image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163947_275x.jpg?v=1578057214"/>
         </Grid>
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards />
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
+           image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163947_275x.jpg?v=1578057214"/>
         </Grid>
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards />
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
+           image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163947_275x.jpg?v=1578057214"/>
         </Grid>
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards />
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
+           image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163947_275x.jpg?v=1578057214"/>
         </Grid>
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards />
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
+           image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163947_275x.jpg?v=1578057214"/>
         </Grid>
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards />
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
+           image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163947_275x.jpg?v=1578057214"/>
         </Grid>
         <Grid lg={3} md={4} sm={6} xs={12}>
-          <Cards />
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
+           image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163947_275x.jpg?v=1578057214"/>
         </Grid>
 
+        <Grid lg={3} md={4} sm={6} xs={12}>
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
+           image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163947_275x.jpg?v=1578057214"/>
+        </Grid>
+        <Grid lg={3} md={4} sm={6} xs={12}>
+          <Cards history = {props.history} image1 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
+           image2 = "https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163947_275x.jpg?v=1578057214"/>
+        </Grid>
+      
 
 
       </Grid>
-
+      <div style = {{marginTop : "20vh"}}>
       <Customers /> 
-  <Footer />
+     <Footer />
+      </div>
     </div>
   );
 }

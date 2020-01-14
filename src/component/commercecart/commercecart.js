@@ -9,10 +9,11 @@ export default function PaperSheet(props) {
     return (
         <div>
 
-            <MDBBtn color="green" style={{ marginBottom: "5vh",marginRight: "10%", float: "right", backgroundColor: "green", color: "white", width: "10%", height: "7vh", fontWeight: "bold" }}>
+            <MDBBtn color="green" style={{ marginBottom: "5vh", marginRight: "10%", float: "right", backgroundColor: "green", color: "white", width: "10%", height: "7vh", fontWeight: "bold" }} 
+            >
                 <MDBIcon icon="lock" className="mr-1" />CheckOut
       </MDBBtn>
-            <div style={{ justifyContent: "center" ,marginLeft: "10%",marginRight: "10%"}}>
+            <div style={{ justifyContent: "center", marginLeft: "10%", marginRight: "10%" }}>
 
                 <table class="table">
                     <thead style={{ backgroundColor: "#f9f9f9", color: 'black' }}>
@@ -49,7 +50,7 @@ export default function PaperSheet(props) {
                                     <td>30495</td>
                                     <td><img src="https://img.icons8.com/color/48/000000/delete-sign.png"
                                         onClick={() => props.onClick(ind)}
-                                        style={{ width: '30px', cursor: 'pointer' }} alt = ""/></td>
+                                        style={{ width: '30px', cursor: 'pointer' }} alt="" /></td>
                                 </tr>)
                             :
                             <h3 style={{ textAlign: 'center', marginLeft: 600, marginTop: 50 }}>There is no any product</h3>}
@@ -77,7 +78,7 @@ export default function PaperSheet(props) {
                 </table>
             </div>
 
-            <MDBBtn color="green" style={{ marginTop: "5vh",marginRight: "10%", float: "right", backgroundColor: "green", color: "white", width: "10%", height: "7vh", fontWeight: "bold" }}>
+            <MDBBtn color="green" style={{ marginTop: "5vh", marginRight: "10%", float: "right", backgroundColor: "green", color: "white", width: "10%", height: "7vh", fontWeight: "bold" }}>
                 <MDBIcon icon="lock" className="mr-1" />CheckOut
       </MDBBtn>
         </div>

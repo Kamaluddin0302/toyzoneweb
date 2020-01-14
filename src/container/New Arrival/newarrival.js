@@ -11,7 +11,7 @@ import Customers from './../../component/social/social'
 function App(props) {
   return (
     <div className="App">
-      <Header />
+      <Header history = {props.history}/>
       <Topbar />
       <Navbar history = {props.history}/>
        <Grid container alignjustify='center'>

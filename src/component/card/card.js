@@ -31,7 +31,9 @@ export default function MediaCard(props) {
   const classes = useStyles();
 
   return (
-    <Card className={classes.card}>
+    <Card className={classes.card} 
+    onClick = {() => props.history.push("/productdetail")}
+    >
       <CardActionArea>
       <HoverImage
       style={{width : '100%'}}

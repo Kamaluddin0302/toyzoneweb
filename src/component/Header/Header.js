@@ -12,14 +12,18 @@ export default class Header extends React.Component {
                     <Grid item lg={10}>
                     </Grid>
                     <Grid item lg={1} md={4} sm={6} xs={8}>
-                        <div style={{ fontSize: '15px',fontWeight : "lighter", borderRight: "1px solid black" }}>
+                        <div style={{ fontSize: '15px', fontWeight: "lighter", borderRight: "1px solid black",cursor: "pointer" }}
+                            onClick={() => {
+                                this.props.history.push("/login")
+                            }}
+                        >
                             My Account
                         </div>
                     </Grid>
                     <Grid item lg={1} md={4} sm={6} xs={4}>
-                            <Badge showZero	= {true} badgeContent={0} color="error" style = {{cursor: "pointer"}}>
-                                <Popup history = {this.props.history}/>
-                            </Badge>
+                        <Badge showZero={true} badgeContent={0} color="error" style={{ cursor: "pointer" }}>
+                            <Popup history={this.props.history} />
+                        </Badge>
                     </Grid>
                 </Grid>
             </div>

@@ -1,0 +1,11 @@
+.first{
+    color: dimgray;
+    font-weight: bold;
+    text-align: left;
+}
+.input{
+padding: 10px;
+border: 1px solid;
+
+border-radius: 5px;
+}

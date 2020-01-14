@@ -8,4 +8,7 @@ import ToysForGirls from './Toys For Girls/toysForGirls'
 import Vehicles from './Vehicles/vehicles' 
 import WinterBigSales from './Winter Big Sale/winterBigSale' 
 import Mycart from './mycart/mycart'
-export {Home ,Babytoy , Blog ,FlashSale ,NewArrival,ToysForBoys,ToysForGirls ,Vehicles ,WinterBigSales ,Mycart}
+import Login from './Login/login'
+import Signup from './Signup/signup'
+import ProductDetail from './ProductDetail/productDetail'
+export {Home ,Babytoy , Blog ,FlashSale ,NewArrival,ToysForBoys,ToysForGirls ,Vehicles ,WinterBigSales ,Mycart ,Login ,Signup ,ProductDetail}
